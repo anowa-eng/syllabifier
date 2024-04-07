@@ -1,8 +1,8 @@
 import sys
 from typing import Optional
 
-from syllabifier import cmuparser3
-from syllabifier.syllable3 import generate_syllables
+from .utils import cmuparser3
+from .utils.syllable3 import generate_syllables
 
 cmu_dict = cmuparser3.CMUDictionary()
 
